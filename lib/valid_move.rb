@@ -5,7 +5,7 @@
 def valid_move?(board, index)
 if(board[index-1]!="X" ||board[index-1]!="O")
   return true
-  if(board[index-1].between?(1,9)
+  elsif(board[index-1].between?(1,9)
   
 end
 end
